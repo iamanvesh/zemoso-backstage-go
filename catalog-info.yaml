@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: zemoso-backstage-go-app
+  description: go app
+  annotations: 
+    github.com/project-slug: iamanvesh/zemoso-backstage-go
+    backstage.io/source-ref: "https://github.com/iamanvesh/zemoso-backstage-go"
+    backstage.io/techdocs-ref: url:https://github.com/iamanvesh/zemoso-backstage-go
+    backstage.io/github-actions-id: https://github.com/iamanvesh/zemoso-backstage-go
+spec:
+  type: service
+  lifecycle: experimental
+  owner: iamanvesh
